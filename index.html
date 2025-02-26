@@ -1,0 +1,46 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/21a7de12c4.js" crossorigin="anonymous"></script>
+        <title>Zee's Business Card</title>
+    </head>
+    <body>
+        <div class="card">
+            <img class="avatar" src="images/2024.jpg" alt="Profile picture of Mmesoma Stella Nzeribe">
+            <div class="info" id="text">
+                <h2>Mmesoma Stella Nzeribe</h2>
+                <h4 class="main">Frontend Developer</h4>
+                <h4 class="aux">Virtual Assistant</h4>
+                <p id="about">I create engaging and user-friendly websites with HTML, CSS, JavaScript, and React. I also perform administrative tasks like email management, transcribing minutes, research, and travel management. Feel free to reach out to me on any of my platforms.</p>
+                <h5>Enugu, Nigeria</h5>
+                <i class="fa-solid fa-envelope" id="email"></i><a href="mailto:mmesomanzeribe@gmail.com" class="mail">mmesomanzeribe@gmail.com</a>
+            </div>
+            <div class="footer">
+                <div class="info">
+                    <div class="icon">
+                        <a href="http://www.linkedin.com/in/mmesoma-nzeribe/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="http://github.com/Starr365" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/starr_o25?t=ANmD-IrOnA5p_GKPxjs4eA&s=08" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="http://www.linkedin.com/in/mmesoma-nzeribe/" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <div id="utc-time"></div>
+                </div>
+            </div>  
+        </div>
+        <script>
+            function updateTime() {
+                const now = new Date();
+                const utcTime = now.toUTCString();
+                const utcPlusOneTime = new Date(now.getTime() + 3600000).toUTCString();
+                document.getElementById('utc-time').textContent = `${utcPlusOneTime}`;
+            }
+            setInterval(updateTime, 1000);
+            updateTime();
+        </script>
+    </body>
+</html>

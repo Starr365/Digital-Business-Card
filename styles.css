@@ -1,0 +1,96 @@
+body {
+    background-color: #01161e;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #01161e;
+}
+
+.card{
+    background: #8075ff;
+    border-radius: 15px;
+    width: 27%;
+    margin: auto;
+}
+
+.avatar{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+.info{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.main{
+    border-bottom: 3px solid #724bf7;
+    margin-top: -20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aux{
+    margin-top: -20px;
+}
+
+#about{
+    text-align: justify;
+    font-size: 15;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+h5{
+    margin-top: -10px;
+    font-size: 15;
+}
+
+a{
+    color: black;
+ }
+#email, .mail{
+    display: inline-block;
+    color: #01161e ;
+    margin-top: -15px;
+    font-size: 15;
+    font-weight: bold;
+}
+
+#email{
+    padding-right: 10px;
+}
+
+.footer{
+    border-radius: 0px 0px 15px 15px;
+    background-color: #724bf7;
+    margin-top: 15px;
+}
+.icon{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-size: 27;
+}
+
+a:hover{
+    color: #b3c2f2;
+}
+
+#utc-time{
+    color: black;
+    text-align: center;
+    padding: 7px;
+    font-size: 17;
+    font-weight: bold;
+}
