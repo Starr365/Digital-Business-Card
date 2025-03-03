@@ -1,96 +1,97 @@
 body {
-    background-color: #01161e;
+    background-color: #211a1d;
     font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #01161e;
+    padding: 10px;
 }
 
-.card{
+.card {
     background: #8075ff;
     border-radius: 15px;
     width: 27%;
     margin: auto;
 }
 
-.avatar{
+.avatar {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
-    
 }
 
-.info{
+.info {
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-h2{
+h2 {
     margin-top: 10px;
 }
 
-.main{
+.main {
     border-bottom: 3px solid #724bf7;
     margin-top: -20px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
-.aux{
+
+.aux {
     margin-top: -20px;
 }
 
-#about{
+#about {
     text-align: justify;
-    font-size: 15;
+    font-size: 15px; 
     font-weight: bold;
     margin-top: -10px;
 }
 
-h5{
+h5 {
     margin-top: -10px;
-    font-size: 15;
+    font-size: 15px; 
 }
 
-a{
+a {
     color: black;
- }
-#email, .mail{
+}
+
+#email, .mail {
     display: inline-block;
-    color: #01161e ;
+    color: #01161e;
     margin-top: -15px;
-    font-size: 15;
+    font-size: 15px; 
     font-weight: bold;
 }
 
-#email{
+#email {
     padding-right: 10px;
 }
 
-.footer{
+.footer {
     border-radius: 0px 0px 15px 15px;
     background-color: #724bf7;
     margin-top: 15px;
 }
-.icon{
-    /* border: 2px solid black; */
+
+.icon {
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;
-    width: 70%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
-    font-size: 27;
+    font-size: 20px; 
 }
 
-a:hover{
+a:hover {
     color: #b3c2f2;
 }
 
-#utc-time{
+#utc-time {
     color: black;
     text-align: center;
     padding: 7px;
-    font-size: 17;
+    font-size: 15px; 
     font-weight: bold;
 }
