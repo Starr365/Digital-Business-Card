@@ -33,15 +33,15 @@
                 </div>
             </div>  
         </div>
-        <script>
-            function updateTime() {
-                const now = new Date();
-                const utcTime = now.toUTCString();
-                const utcPlusOneTime = new Date(now.getTime() + 3600000).toUTCString();
-                document.getElementById('utc-time').textContent = `${utcPlusOneTime}`;
-            }
-            setInterval(updateTime, 1000);
-            updateTime();
-        </script>
     </body>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const utcTime = now.toUTCString();
+            const utcPlusOneTime = new Date(now.getTime() + 3600000).toUTCString();
+            document.getElementById('utc-time').textContent = `${utcPlusOneTime}`;
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
 </html>
