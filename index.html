@@ -14,7 +14,7 @@
         <div class="card">
             <img class="avatar" src="images/2024.jpg" alt="Profile picture of Mmesoma Stella Nzeribe">
             <div class="info" id="text">
-                <h2>Mmesoma Stella Nzeribe</h2>
+                <h3>Mmesoma Stella Nzeribe</h3>
                 <h4 class="main">Frontend Developer</h4>
                 <h4 class="aux">Virtual Assistant</h4>
                 <p id="about">I create engaging and user-friendly websites with HTML, CSS, JavaScript, and React. I also perform administrative tasks like email management, transcribing minutes, research, and travel management. Feel free to reach out to me on any of my platforms.</p>
@@ -33,15 +33,15 @@
                 </div>
             </div>  
         </div>
+        <script>
+            function updateTime() {
+                const now = new Date();
+                const utcTime = now.toUTCString();
+                const utcPlusOneTime = new Date(now.getTime() + 3600000).toUTCString();
+                document.getElementById('utc-time').textContent = `${utcPlusOneTime}`;
+            }
+            setInterval(updateTime, 1000);
+            updateTime();
+        </script>
     </body>
-    <script>
-        function updateTime() {
-            const now = new Date();
-            const utcTime = now.toUTCString();
-            const utcPlusOneTime = new Date(now.getTime() + 3600000).toUTCString();
-            document.getElementById('utc-time').textContent = `${utcPlusOneTime}`;
-        }
-        setInterval(updateTime, 1000);
-        updateTime();
-    </script>
 </html>
